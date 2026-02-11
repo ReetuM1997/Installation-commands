@@ -1,0 +1,13 @@
+python --version
+Create a new project:
+---django-admin startproject mybackend
+---pip freeze > requirements.txt
+Open requirements.txt ( at the project folder, it will be an empty note pad, add the below text):
+psycopg2-binary
+django==5.0.1
+django-cockroachdb==5.0
+---pip install -r requirements.txt
+---pip install djangorestframework
+---pip install django-cors-headers
+cd mybackend
+----django-admin startapp myapp
